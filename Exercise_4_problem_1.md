@@ -24,13 +24,24 @@ If everything in your script is working properly the following test case should 
 
 
 ```python
-# YOUR CODE HERE
+
+ def fahr_to_celsius(temp_fahrenheit):
+  """converts the input temperature from degrees Fahrenheit to degrees Celsius
+
+  perameter:temp_fahrenheit
+  return:converted_temp
+  """
+
+  converted_temp = (temp_fahrenheit-32)/1.8
+  return converted_temp
 ```
 
 ### Problem 1 tests
 
 ```python
 # Check that the function produces correct answers for:
+print(fahr_to_celsius(48))
+print(fahr_to_celsius(71))
 # 1. What is 48° Fahrenheit in Celsius? 
 # 2. What about 71° Fahrenheit in Celsius?
 ```
@@ -50,7 +61,8 @@ We would like you to think about and answer the following questions based on the
   
 Write your answers below.
 
-YOUR ANSWER HERE
+  1. Yes.
+  2. We will don't have to write programs many times with using fanction. 
 
 #### Done!
 
